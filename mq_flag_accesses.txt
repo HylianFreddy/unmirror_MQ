@@ -1,0 +1,118 @@
+# These are the addresses for code instructions that load the MQ flag into a CPU register.
+# On the right is the register number ("0" --> R0).
+
+0x00101540 : 0,
+0x00108684 : 0,
+0x0012E8D0 : 0,
+0x001625E0 : 0,
+0x00189B50 : 0,
+0x00195008 : 0,
+0x001982C4 : 1,
+0x001A2F58 : 1,
+0x001C2534 : 0,
+0x001C2698 : 1,
+0x001CE960 : 0,
+0x001CE998 : 1,
+0x001E3750 : 11,
+0x00207E38 : 0,
+0x00207F18 : 0,
+0x00212BDC : 0,
+0x0021590C : 0,
+0x0021893C : 0,
+0x0021DE4C : 0,
+0x00227FFC : 1,
+0x00229A78 : 0,
+0x00230B58 : 0,
+0x00230B5C : 1,
+0x00235684 : 3,
+0x0024BDB0 : 0,
+0x0024D858 : 1,
+0x0024D8E8 : 1,
+0x0025765C : 3,
+0x002577A8 : 11,
+0x00267EC0 : 1,
+0x00273444 : 8,
+0x00277C08 : 0,
+0x00286AA4 : 1,
+0x00288F24 : 1,
+0x00294C50 : 1,
+0x00294CF8 : 1,
+0x00298910 : 3,
+0x00298978 : 2,
+0x0029A52C : 0,
+0x0029B00C : 0,
+0x002AAA4C : 0,
+0x002C05A0 : 0, # invert first person gyro x-axis
+0x002D8D20 : 0, # invert targetted gyro x-axis
+0x002EAFC4 : 0, # dungeon select
+0x002EF024 : 0, # mirror flashing dots on world map (pause/gameplay)
+0X002EF128 : 0, # mirror static dots on world map (pause screen)
+0x002EF1B4 : 2,
+0x002F06F0 : 0, # mirror cursor on world map
+0x002F0A98 : 0, # mirror blue box on world map (pause screen)
+0x002F0F40 : 1,
+0x002F1580 : 0, # mirror boss icon on dungeon map
+0x002F1618 : 1, # select icons set for dungeon map
+0x002F16C0 : 0, # mirror chest icons on dungeon map
+0x002F176C : 0, # select icons set for dungeon minimap
+0x002F1828 : 1, # mirror chest icons on dungeon minimap
+0x002F19A8 : 2, # mirror boss icon on dungeon minimap
+0x002F227C : 0, # mirror dungeon map
+0x002F50A8 : 0,
+0x002FC378 : 0, # invert culling for 2D sprites (effects, projectiles,...)
+0x002FFC98 : 0,
+0x0033FE44 : 0,
+0x00340B5C : 2,
+0x003415C8 : 6, # skulltula tangibility
+0x00344570 : 1, # invert directions in dialog (east/west)
+0x00352DCC : 0, # double damage
+0x0035DDE4 : 0,
+0x00362CC8 : 0,
+0x00367C98 : 0,
+0x0036A374 : 0,
+0x0036A480 : 0,
+0x0036A584 : 1,
+0x0036A5F8 : 2,
+0x0036A8B0 : 0,
+0x00379240 : 11,
+0x00381274 : 1,
+0x003823F8 : 0,
+0x003AA9D0 : 0,
+0x003B934C : 0,
+0x003B9380 : 0,
+0x003B93AC : 0,
+0x003B93B4 : 0,
+0x003B93DC : 0,
+0x003B940C : 0,
+0x003B943C : 0,
+0x003B9468 : 0,
+0x003CAF60 : 0,
+0x003DF5E0 : 1,
+0x003F0F40 : 0,
+0x003F10E4 : 0, # in EnBox_WaitOpen (Boss challenge stuff probably)
+0x0041636C : 0,
+0x0041901C : 0,
+0x00419900 : 0, # invert culling for 3D objects
+0x0041AB10 : 0, # invert circle pad x-axis
+0x0042ADF8 : 0, # mirror yellow arrow on minimap
+0x0042AFEC : 0, # mirror red arrow on minimap
+0x0042C62C : 1, # mirror world map (gameplay)
+0x0042CEDC : 1, # mirror world map (pause screen)
+0x0042CF38 : 1, # change position of area name on world map (pause screen)
+0x0042DAF0 : 2, # mirror pause menu controls
+0x0042F7B4 : 0, # mirror overworld minimap (pause screen)
+0x004391E8 : 0, # mirror blue box on world map (gameplay)
+0x0044199C : 0, # mirror overworld minimap (gameplay)
+0x00441E14 : 0, # mirror dungeon minimap (pause/gameplay)
+0x00450D2C : 0,
+0x00450E3C : 0,
+0x00450EEC : 0,
+0x00451050 : 0,
+0x00451198 : 0,
+0x0045CB60 : 0,
+0x0045D6D0 : 0,
+0x0046404C : 0,
+0x00479088 : 0, # mirror graphics
+0x004813DC : 1,
+0x0049BF60 : 0,
+0x004BFC64 : 0,
