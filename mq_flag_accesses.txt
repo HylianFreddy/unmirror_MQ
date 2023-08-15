@@ -9,8 +9,8 @@
 0x00195008 : 0,
 0x001982C4 : 1,
 0x001A2F58 : 1,
-0x001C2534 : 0,
-0x001C2698 : 1,
+0x001C2534 : 0, # invert frogs button mapping during butterfly game
+0x001C2698 : 1, # invert frogs game butterflies [1]
 0x001CE960 : 0,
 0x001CE998 : 1,
 0x001E3750 : 11,
@@ -22,8 +22,7 @@
 0x0021DE4C : 0,
 0x00227FFC : 1,
 0x00229A78 : 0,
-0x00230B58 : 0,
-0x00230B5C : 1,
+0x00230B5C : 1, # invert frogs button mapping before butterfly game
 0x00235684 : 3,
 0x0024BDB0 : 0,
 0x0024D858 : 1,
@@ -62,7 +61,7 @@
 0x002FC378 : 0, # invert culling for 2D sprites (effects, projectiles,...)
 0x002FFC98 : 0,
 0x0033FE44 : 0,
-0x00340B5C : 2,
+0x00340B5C : 2, # invert frogs croaking pitch
 0x003415C8 : 6, # skulltula tangibility
 0x00344570 : 1, # invert directions in dialog (east/west)
 0x00352DCC : 0, # double damage
@@ -75,7 +74,7 @@
 0x0036A5F8 : 2,
 0x0036A8B0 : 0,
 0x00379240 : 11,
-0x00381274 : 1,
+0x00381274 : 1, # mirror frogs game butterflies [2]
 0x003823F8 : 0,
 0x003AA9D0 : 0,
 0x003B934C : 0,

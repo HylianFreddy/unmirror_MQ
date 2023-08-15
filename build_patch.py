@@ -8,6 +8,9 @@ import struct
 
 patchData = {
     #<address> : <register>
+    0x001C2534 : 0, # invert frogs button mapping during butterfly game
+    0x001C2698 : 1, # invert frogs game butterflies [1]
+    0x00230B5C : 1, # invert frogs button mapping before butterfly game
     0x002C05A0 : 0, # invert first person gyro x-axis
     0x002D8D20 : 0, # invert targetted gyro x-axis
     0x002EF024 : 0, # mirror flashing dots on world map (pause/gameplay)
@@ -22,7 +25,9 @@ patchData = {
     0x002F227C : 0, # mirror dungeon map
     0x002FFC98 : 0, # invert audio channels
     0x002FC378 : 0, # invert culling for 2D sprites (effects, projectiles,...)
+    0x00340B5C : 2, # invert frogs croaking pitch
     0x00344570 : 1, # invert directions in dialog (east/west)
+    0x00381274 : 1, # mirror frogs game butterflies [2]
     0x0041901C : 0, # invert stereoscopic 3D
     0x00419900 : 0, # invert culling for 3D objects
     0x0041AB10 : 0, # invert circle pad x-axis
