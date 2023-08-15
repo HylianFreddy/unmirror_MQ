@@ -73,9 +73,9 @@ for vaddr, reg in patchData.items():
     ips += sz(size)
     ips += patch
 
-    addrStr = '{:08x}'.format(vaddr)
-    regStr = '{:02x}'.format(reg << 4)
-    cheat += (addrStr + ' E3A0' + regStr + '00\n').upper()
+    addrStr = '{:08X}'.format(vaddr)
+    regStr = '{:02X}'.format(reg << 4)
+    cheat += (addrStr + ' E3A0' + regStr + '00\n')
 ips += b'EOF'
 
 with open('code.ips', 'wb') as patchFile:
