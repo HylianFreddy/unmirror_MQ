@@ -10,6 +10,7 @@ patchData = {
     #<address> : <register>
     0x001C2534 : 0, # invert frogs button mapping during butterfly game
     0x001C2698 : 1, # invert frogs game butterflies [1]
+    0x00227FFC : 1, # mirror target point values
     0x00230B5C : 1, # invert frogs button mapping before butterfly game
     0x002C05A0 : 0, # invert first person gyro x-axis
     0x002D8D20 : 0, # invert targetted gyro x-axis

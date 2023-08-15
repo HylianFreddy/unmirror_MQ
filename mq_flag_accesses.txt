@@ -20,7 +20,7 @@
 0x0021590C : 0,
 0x0021893C : 0,
 0x0021DE4C : 0,
-0x00227FFC : 1,
+0x00227FFC : 1, # mirror target point values
 0x00229A78 : 0,
 0x00230B5C : 1, # invert frogs button mapping before butterfly game
 0x00235684 : 3,
